@@ -58,7 +58,7 @@ def make_agent():
     chain = trimmer | prompt_template | model.bind_tools(tools)
 
     def agent(state: State):
-        print("---- agent ----")
+        print("---- agent started ----")
         response = chain.invoke(state["messages"])
         print("---- agent finished ----")
         return {"messages": response}

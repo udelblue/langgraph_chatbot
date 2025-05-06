@@ -12,11 +12,6 @@ This is a simple chatbot that uses tools and has shortterm memory (checkpoints).
 
 copy .env copy to .env and upload your openai key
 
-## Run
-
-streamlit run main.py
-
-
 ## Virtual environment
 
 ### Windows venv activation
@@ -33,3 +28,7 @@ or
 venv\Scripts\Activate.ps1
 
 ```
+
+## Run
+
+streamlit run main.py
