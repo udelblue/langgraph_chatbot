@@ -12,6 +12,14 @@ if "messages" not in st.session_state:
 
 st.title("Chatbot")
 
+with st.sidebar:
+    st.write("## Langgraph Graph diagram")
+    st.write("This is a graph of the chatbot's knowledge and capabilities.")
+    graph_bytes = graph.get_graph().draw_mermaid_png()
+    st.image(graph_bytes, caption="Chatbot Graph")
+    
+
+
 # Display the chat history.
 for message in st.session_state.messages:
     if isinstance(message, HumanMessage):
