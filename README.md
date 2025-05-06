@@ -11,4 +11,4 @@ streamlit run main.py
 
 ## Diagram
 
-![alt text](https://raw.githubusercontent.com/udelblue/Systemize/refs/heads/master/Screenshots/authentication.png "Diagram")
+![alt text](https://raw.githubusercontent.com/udelblue/langgraph_chatbot/blob/master/assets/graph.jpg "Diagram")
