@@ -1,0 +1,3 @@
+OPENAI_API_KEY=
+DEBUG=True
+MODEL=gpt-3.5-turbo
