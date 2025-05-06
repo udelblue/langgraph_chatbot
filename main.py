@@ -2,7 +2,7 @@ import streamlit as st
 
 from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
-from joke_agent import graph, State
+from agents.agent import graph, State
 
 load_dotenv()
 
